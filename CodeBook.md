@@ -16,7 +16,7 @@ Documentation is included within the .zip file `FUCI HAR Dataset`. Additional do
 
 ## Feature Variables
 
-**Overview:** Feature variables were measured in 3-axial (X-Y-Z) raw signals using an accelerometer and gyroscope and captures at a constant rate of 50 Hz. To remove noise, signals were filtered using a median filter and a 3rd order low-pass Butterworth filter with a corner frequency of 20 Hz. Acceleration signals were separated into body and gravity acceleration signals, again using a low-pass Butterworth filter and a corner frequency of 0.3 Hz. Body linear acceleration and angular velocity were derived to obtain Jerk signals. The magnitude of 3-dimensional signals were calcualted using Euclidean norm.
+**Overview:** Feature variables were measured in 3-axial (X-Y-Z) raw signals using an accelerometer and gyroscope and captures at a constant rate of 50 Hz. To remove noise, signals were filtered using a median filter and a 3rd order low-pass Butterworth filter with a corner frequency of 20 Hz. Acceleration signals were separated into body and gravity acceleration signals, again using a low-pass Butterworth filter and a corner frequency of 0.3 Hz. Body linear acceleration and angular velocity were derived to obtain Jerk signals. The magnitude of 3-dimensional signals were calculated using Euclidean norm.
 
 - `tBodyAcc-XYZ` indicates 3-axial body acceleration; time domain signal
 - `tGravityAcc-XYZ` indicates 3-axial gravity acceleration; time domain signal
