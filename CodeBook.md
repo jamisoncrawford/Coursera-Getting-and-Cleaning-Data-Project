@@ -43,4 +43,4 @@ Documentation is included within the .zip file `FUCI HAR Dataset`. Additional do
 
 **Additional Variable Transformations**
 
-The resulting data in `tidy_data.txt` were the mean values of permutations of the above inertial signals and descriptive statistics grouped by `subject` and `activity. 
+The resulting data in `tidy_data.txt` were the mean values of permutations of the above inertial signals and descriptive statistics grouped by `subject` and `activity. Averaging these values by said groups reduced the data from 10,299 observations to 180, the product of 30 instances of `subject` and 6 distinct instances of physical `activity`.
